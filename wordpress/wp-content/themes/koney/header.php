@@ -57,3 +57,9 @@
     </header>
 
     <main class="container">
+        <div class="content">
+          <h1 class="content__title">Enjoy a fun and relaxing moment with us !!</h1>
+    
+          <section class="slider">
+            <img class="slider__img" src="<?= home_url();  ?>/wp-content/themes/koney/images/devil-wheel-attraction-port.jpg" alt="ferris wheel and beach illustration">
+          </section>

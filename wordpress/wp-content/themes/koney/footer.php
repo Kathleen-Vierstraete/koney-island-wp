@@ -15,10 +15,10 @@
   <nav>
     <div class="footer__part">
       <div class="container">
-        <div class="footer__submenu">
-          <a class="footer__submenu__item" href=""><img src="./images/footer-logos/icons8-instagram-48.png" alt=""></a>
-          <a class="footer__submenu__item" href=""><img src="./images/footer-logos/icons8-facebook-48.png" alt=""></a>
-          <a class="footer__submenu__item" href=""><img src="./images/footer-logos/icons8-twitter-squared-48.png" alt=""></a>
+        <div class="footer__submenu"> 
+          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-instagram-48.png" alt=""></a>
+          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-facebook-48.png" alt=""></a>
+          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-twitter-squared-48.png" alt=""></a> 
         </div>
       </div>
 
