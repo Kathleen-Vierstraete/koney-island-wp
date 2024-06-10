@@ -1,3 +1,12 @@
+<?php 
+
+get_header(); 
+
+?>
+
+
+
+
 <?php
 
-echo "hello koney island";
+get_footer(); 
