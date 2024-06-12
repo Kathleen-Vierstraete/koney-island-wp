@@ -76,6 +76,12 @@ body {
     display: inline-block;
   }
 
+  ul li {
+    display : inline;
+    padding: 1rem 0.5rem;
+
+  }
+
 /* content */
 .content {
     padding: 1rem;

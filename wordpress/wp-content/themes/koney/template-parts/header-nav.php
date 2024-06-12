@@ -2,16 +2,16 @@
 /**
  * displays the menu nav in the header
  */
+
+
+wp_nav_menu([
+    'menu' => 'Header-Menu', //le nom du menu définit dans le back office
+    'menu_class' => 'submenu__item', // la classe de la balise <ul> du menu
+    'container' => 'div' , //balise qui contiendra le <ul> du menu
+    'container_class' => 'submenu',
+    'echo' => true //Si true (par défaut true): affiche le menu, sinon le return
+
+]);
 ?>
 
-<div class="header__part">
-            <div class="container">
-              <div class="submenu">
-                <a class="submenu__item" href="./header-pages/park.html">Park</a>
-                <a class="submenu__item" href="./header-pages/food.html">Food</a>
-                <a class="submenu__item" href="./header-pages/beach.html">Beach</a>
-                <a class="submenu__item" href="./header-pages/aquarium.html">Aquarium</a>
-                <a class="submenu__item" href="./header-pages/parade.html">Parade</a>
-              </div>
-            </div>
-          </div>
+

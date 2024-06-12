@@ -39,7 +39,13 @@
               </div>
             </div>
           </div>
+          <div class="header__part">
+            <div class="container">
+
           <?php get_template_part( 'template-parts/header-nav' ); ?> 
+
+            </div>
+          </div>
         </nav>
     </header>
 
