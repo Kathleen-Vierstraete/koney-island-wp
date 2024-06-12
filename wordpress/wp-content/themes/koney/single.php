@@ -10,6 +10,8 @@ if(have_posts()) :
     <h2 class="segment__title"><?php the_title(); ?></h2>
     <p><?php the_content(); ?></p>
 </div>
+<a class="btn" href="<?= home_url(); ?>">Back Home</a>
+                
 
 <?php
 endif;
