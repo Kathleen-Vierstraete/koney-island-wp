@@ -24,11 +24,9 @@
 
       <div class="container">
         <div class="footer__submenu">
-          <a class="footer__submenu__item" href="./footer-pages/contact.html">Contact us</a>
-          <a class="footer__submenu__item" href="./footer-pages/who-we-are.html">Who we are</a>
-          <a class="footer__submenu__item" href="./footer-pages/about.html">About</a>
-          <a class="footer__submenu__item" href="./index.html">Back Home</a>
-        </div>
+
+        <?php get_template_part( 'template-parts/footer-nav' ); ?> 
+        
       </div>
     </div>
   </nav>

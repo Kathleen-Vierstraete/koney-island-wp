@@ -34,6 +34,7 @@ function register_my_menus() {
   register_nav_menus(
     array(
       'header-menu' => ( 'Header-Menu' ), //nom du menu
+      'footer-menu' => ('Footer-Menu')
      )
    );
  }
@@ -41,14 +42,5 @@ function register_my_menus() {
 
 
 
-// function apply_nav_menu_css_href($atts) {
-// // On voit qu'on récupère la liste des attributs de la balise <a>
-// // Le href est rempli avec l'url à atteindre
-  
-//     // On veut ajouter une classe
-//     $atts['class'] = 'submenu__item';
-//     return $atts;
-//   }
-//    add_filter('nav_menu_link_attributes', 'apply_nav_menu_css_href');
-  
+
 

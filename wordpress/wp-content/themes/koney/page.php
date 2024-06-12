@@ -16,6 +16,8 @@ if(have_posts()) :
             <p> <?php the_content(); ?></p>
     
         </div>
+        
+        <a class="btn" href="<?= home_url(); ?>">Back Home</a>
 
 
         <?php
