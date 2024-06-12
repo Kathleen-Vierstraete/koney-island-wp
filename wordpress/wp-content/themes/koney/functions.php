@@ -19,5 +19,5 @@ function charging_styles() {
 // https://developer.wordpress.org/reference/functions/add_action/
  add_action( 'wp_enqueue_scripts', 'charging_styles' );
 
-
+// adding this line to make sure the option add a post thumbnail appears in the backoffice and being able to add the_post_thumbnail in the loop
  add_theme_support( 'post-thumbnails' );

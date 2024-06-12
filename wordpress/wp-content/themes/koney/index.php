@@ -22,9 +22,6 @@ if(have_posts()) :
         // pour récupérer l'élement en cours de lecture on utilise 
         //INDISPENSABLE DANS LA BOUCLE WP
         the_post();
-
-
-  
     ?>
 
               <article class="card">
@@ -35,7 +32,7 @@ if(have_posts()) :
                   <p class="card__desc"><?php the_excerpt(); ?></p>
                 </div>
                 <div class="card__action">
-                    <a class="btn" href="./articles-pages/whale-article.html">Dive Deeper</a>
+                    <a class="btn" href="<?php the_permalink()?>">Dive Deeper</a>
                 </div>
               </article>
 
@@ -43,12 +40,9 @@ if(have_posts()) :
         
         endwhile ;
     endif ;
-
-    ?>
+?>
             </div>
           </section>
-
-
 <?php
 
 get_footer(); 
