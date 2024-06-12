@@ -18,3 +18,6 @@ function charging_styles() {
 }
 // https://developer.wordpress.org/reference/functions/add_action/
  add_action( 'wp_enqueue_scripts', 'charging_styles' );
+
+
+ add_theme_support( 'post-thumbnails' );

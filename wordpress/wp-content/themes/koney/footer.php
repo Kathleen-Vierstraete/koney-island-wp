@@ -8,7 +8,7 @@
  */
 
 ?>
-
+        </div>
 </main>
 
 <footer class="footer">
