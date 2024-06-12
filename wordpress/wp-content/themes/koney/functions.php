@@ -21,3 +21,6 @@ function charging_styles() {
 
 // adding this line to make sure the option add a post thumbnail appears in the backoffice and being able to add the_post_thumbnail in the loop
  add_theme_support( 'post-thumbnails' );
+
+//adding a dynamic title on the pages, so that it shows on the tab
+add_theme_support('title-tag');
