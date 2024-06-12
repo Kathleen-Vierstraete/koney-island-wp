@@ -24,3 +24,18 @@ function charging_styles() {
 
 //adding a dynamic title on the pages, so that it shows on the tab
 add_theme_support('title-tag');
+
+//activating the menus in the wp backoffice
+add_theme_support('menus');
+
+// Saving the menus to use them
+// https://developer.wordpress.org/themes/functionality/navigation-menus/
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => ( 'Header-Menu' ), //nom du menu
+     )
+   );
+ }
+ add_action( 'init', 'register_my_menus' );
+
