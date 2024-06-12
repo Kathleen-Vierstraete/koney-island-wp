@@ -187,6 +187,11 @@ body {
 
 }
 
+ /* class added via wp backoffice on the p */
+.article-content{
+  margin : 1em
+}
+
   /* responsive */
 
 @media screen and (min-width: 768px) {
