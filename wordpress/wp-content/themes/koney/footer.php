@@ -16,9 +16,9 @@
     <div class="footer__part">
       <div class="container">
         <div class="footer__submenu"> 
-          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-instagram-48.png" alt=""></a>
-          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-facebook-48.png" alt=""></a>
-          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-twitter-squared-48.png" alt=""></a> 
+          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-instagram-48.png" alt="instagram logo"></a>
+          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-facebook-48.png" alt="facebook logo"></a>
+          <a class="footer__submenu__item" href=""><img src="<?= home_url();  ?>/wp-content/themes/koney/images/footer-logos/icons8-twitter-squared-48.png" alt="twitter logo"></a> 
         </div>
       </div>
 

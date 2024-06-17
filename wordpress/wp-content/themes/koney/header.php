@@ -30,7 +30,7 @@
             <div class="container">
               <div class="header__flex">
                 <a class="logo" href="<?= home_url();  ?>">
-                  <img class="logo__image" src="images/ferris-wheel_6668036.png" alt="">
+                  <img class="logo__image" src="<?= home_url();  ?>/wp-content/themes/koney/images/ferris-wheel_6668036.png" alt="">
                   <span class="logo__title">Koney Island</span>
                 </a>
                 <div class="menu">
@@ -57,9 +57,10 @@
         <div class="content">
           <h1 class="content__title">Enjoy a fun and relaxing moment with us !!</h1>
     
-          <section class="slider">
-            <img class="slider__img" src="<?= home_url();  ?>/wp-content/themes/koney/images/devil-wheel-attraction-port.jpg" alt="ferris wheel and beach illustration">
-          </section>
+        <section class="slider">
+        <button class="btn slider__btn" type="button" aria-label="Précédent">&lt;</button>
+        <button class="btn slider__btn" type="button" aria-label="Suivant">&gt;</button>
+      </section>
 
     <?php endif; 
                         

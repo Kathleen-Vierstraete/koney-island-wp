@@ -33,12 +33,22 @@ add_theme_support('menus');
 function register_my_menus() {
   register_nav_menus(
     array(
-      'header-menu' => ( 'Header-Menu' ), //nom du menu
+      'header-menu' => ( 'Header-Menu' ), //menu's name
       'footer-menu' => ('Footer-Menu')
      )
    );
  }
  add_action( 'init', 'register_my_menus' );
+
+//adding a js slider for the header images
+//https://www.easywp.com/blog/adding-javascript-to-wordpress/#:~:text=You%20can%20access%20it%20through,using%20the%20wp_enqueue_script()%20function.
+ function slider_script() {
+  wp_enqueue_script( 'slider_script(', get_template_directory_uri() . '/javascript/slider.js', array(), '1.0', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'slider_script' );
+
+
 
 
 
